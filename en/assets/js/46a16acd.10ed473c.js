@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbot_method_documentation=self.webpackChunkbot_method_documentation||[]).push([[501],{9643:t=>{t.exports=JSON.parse('{"label":"docusaurus","permalink":"/bot-method-documentation/en/blog/tags/docusaurus","allTagsPath":"/bot-method-documentation/en/blog/tags","count":4,"unlisted":false}')}}]);

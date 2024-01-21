@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbot_method_documentation=self.webpackChunkbot_method_documentation||[]).push([[222],{3308:o=>{o.exports=JSON.parse('{"label":"facebook","permalink":"/bot-method-documentation/en/blog/tags/facebook","allTagsPath":"/bot-method-documentation/en/blog/tags","count":1,"unlisted":false}')}}]);
