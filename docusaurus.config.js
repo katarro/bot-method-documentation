@@ -23,7 +23,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'es',
-    locales: ['es','en'],
+    locales: ['es', 'en'],
   },
 
   presets: [
@@ -31,7 +31,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        
+
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -51,16 +51,21 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/Logo.png',
-     
+
       navbar: {
         logo: {
           alt: 'Método Logística',
           src: 'img/LogoLight.svg',
           srcDark: 'img/LogoNegro.svg',
         },
-        
-        
+
+
         items: [
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'tutorialSidebar',
