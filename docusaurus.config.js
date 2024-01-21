@@ -10,8 +10,8 @@ const config = {
   url: 'https://katarro.github.io',
   baseUrl: '/bot-method-documentation/',
 
-  organizationName: 'Método Logística', // Usually your GitHub org/user name.
-  projectName: 'Documentation Bot Metodo Logistica', // Usually your repo name.
+  organizationName: 'katarro', // Tu nombre de usuario en GitHub.
+  projectName: 'bot-method-documentation',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
