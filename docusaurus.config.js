@@ -32,12 +32,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
 
+
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/katarro/bot-method-documentation',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -61,23 +62,23 @@ const config = {
 
 
         items: [
-          {
+         /*  {
             type: 'localeDropdown',
             position: 'right',
+          }, */
+
+          /* {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Tutorial',
           },
-          
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // { to: '/blog', label: 'Blog', position: 'left' },
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
+            position: 'right',
+          }, */
         ],
       },
       footer: {
